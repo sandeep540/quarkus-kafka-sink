@@ -1,4 +1,4 @@
-package org.acme;
+package org.acme.sink;
 
 import org.apache.kafka.common.serialization.Deserializer;
 import com.fasterxml.jackson.databind.ObjectMapper;

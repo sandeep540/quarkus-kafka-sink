@@ -1,4 +1,4 @@
-package org.acme;
+package org.acme.sink;
 import io.quarkus.runtime.Quarkus;
 import io.quarkus.runtime.annotations.QuarkusMain;
 

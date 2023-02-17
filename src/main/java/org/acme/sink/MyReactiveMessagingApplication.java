@@ -1,4 +1,4 @@
-package org.acme;
+package org.acme.sink;
 
 import io.smallrye.common.annotation.RunOnVirtualThread;
 import jakarta.enterprise.context.ApplicationScoped;
