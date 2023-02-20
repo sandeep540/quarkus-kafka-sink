@@ -16,6 +16,10 @@ import java.util.UUID;
 
 public class KafkaGen {
 
+    Properties prop = new Properties();
+    //prop.load(App.class.getClassLoader().getResourceAsStream("config.properties"));
+
+
     private static final String TOPIC = "product";
     private static final String BOOTSTRAP_SERVERS = "localhost:19092,localhost:29092,localhost:39092";
 
