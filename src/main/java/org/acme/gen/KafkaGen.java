@@ -20,7 +20,7 @@ public class KafkaGen {
     //prop.load(App.class.getClassLoader().getResourceAsStream("config.properties"));
 
 
-    private static final String TOPIC = "product";
+    private static final String TOPIC = "input-topic";
     private static final String BOOTSTRAP_SERVERS = "localhost:19092,localhost:29092,localhost:39092";
 
     public static void main(String[] args) {

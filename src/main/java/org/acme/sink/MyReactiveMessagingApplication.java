@@ -13,7 +13,6 @@ public class MyReactiveMessagingApplication {
     private final Logger logger = LoggerFactory.getLogger(MyReactiveMessagingApplication.class);
 
     @Incoming("product")
-    @RunOnVirtualThread
     public void sink(Record<String, Product> record) {
         logger.info("Message ------- >> " + record.value().toString());
     }
